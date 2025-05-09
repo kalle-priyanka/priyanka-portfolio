@@ -43,7 +43,7 @@ export default function HeroSection() {
     <HeroContainer>
 
      
-<ProfileImage src={`${process.env.PUBLIC_URL}/images/face.jpg`} alt="Priyanka's face" />
+<ProfileImage src=/priyanka-portfolio/images/face.jpg alt="Priyanka's face" />
 
  
 
