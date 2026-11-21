@@ -137,7 +137,7 @@ export default function HeroSection() {
         📍 Hyderabad, Telangana &nbsp;•&nbsp; ✉️ kallepriya025@gmail.com &nbsp;•&nbsp; 📞 +91 7601088720
       </LocationTag>
       <Description>
-        Embedded Software Engineer with 2+ years of hands-on experience building real-time mission-critical systems across ARM platforms (Xilinx Zynq-7045, ZC706, TI Sitara AM5728, NXP i.MX8MP) and STM32 MCUs. Architect of dual-channel MIL-STD-1553 avionics driver stacks (Arm_Board/ESU) and Backhaul Radio Physical Layer Control Centers (PHY_APP) on ARM/AD9361. Deep expertise in RTOS application orchestration (VxWorks 22.09 RTPs), Linux kernel customization, and low-level hardware bring-up for defense and aerospace.
+        Embedded Software Engineer with 2+ years of hands-on experience building real-time mission-critical systems across ARM platforms (Xilinx Zynq-7045, ZC706, TI Sitara AM5728, NXP i.MX8MP) and STM32 MCUs. Architect of dual-channel MIL-STD-1553 avionics driver stacks and Backhaul Radio Physical Layer Control Centers on ARM/AD9361. Deep expertise in RTOS application orchestration (VxWorks 22.09 RTPs), Linux kernel customization, and low-level hardware bring-up for defense and aerospace.
       </Description>
       <ButtonGroup>
         <PrimaryBtn href={resumeUrl} target="_blank" rel="noreferrer">

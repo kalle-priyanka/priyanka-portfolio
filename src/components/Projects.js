@@ -98,14 +98,14 @@ const TechBadge = styled.span`
 
 const projectsData = [
   {
-    title: "Dual-Channel MIL-STD-1553 Avionics Subsystem (Arm_Board / ESU)",
+    title: "Dual-Channel MIL-STD-1553 Avionics Driver Subsystem",
     client: "DRDO (Defence Research & Development Organisation)",
     description:
-      "Architected and implemented the complete dual-channel MIL-STD-1553 driver stack (libbu69095.so) in C on custom Xilinx Zynq-7045 ARM Linux. Fully supported Bus Controller (BC), Remote Terminal (RT), and Message Monitor (MT) modes over SPI (/dev/spidev1.0 & /dev/spidev2.0) with robust shared memory queue arbitration (/bu69092_bc_queue) and live JSON telemetry streaming for the ESU dashboard.",
+      "Architected and implemented the complete dual-channel MIL-STD-1553 driver stack in C on custom Xilinx Zynq-7045 ARM Linux hardware. Fully supported Bus Controller (BC), Remote Terminal (RT), and Message Monitor (MT) modes over SPI with robust multi-process shared memory queue arbitration and live JSON telemetry streaming.",
     tech: ["C", "MIL-STD-1553B", "Linux Device Drivers", "Zynq-7045", "SPI", "Shared Memory", "devmem"],
   },
   {
-    title: "Backhaul Radio Physical Layer Control Center & Web NMS (PHY_APP)",
+    title: "Backhaul Radio Physical Layer Control Center & Web NMS",
     client: "Larsen & Toubro (L&T)",
     description:
       "Engineered an end-to-end Python/Flask HTTPS Network Management System (NMS) on ARM Linux interfacing with the AD9361 RF Agile Transceiver via Linux IIO. Implemented closed-loop Automatic Power Control (APC) and Automatic Frequency Control (AFC) state machines, 6-band AFE filter switching via direct AXI devmem2 register manipulation, and OpenSSL 256-bit ChaCha20 stream cipher encryption.",

@@ -101,7 +101,7 @@ const skillsData = [
     items: [
       "Linux Character Drivers",
       "AXI devmem2 mmap",
-      "SPI (spidev)",
+      "SPI",
       "I2C",
       "UART",
       "GPIO",
