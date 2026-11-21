@@ -2,9 +2,10 @@ import React from "react";
 import styled, { ThemeProvider } from "styled-components";
 import { darkTheme } from "./utils/themes";
 import Header from "./components/Header";
+import HeroSection from "./components/HeroSection";
+import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
-import HeroSection from "./components/HeroSection";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -28,13 +29,26 @@ const GlowBackground = styled.div`
   z-index: 0;
 `;
 
+const GlowBackgroundSecondary = styled.div`
+  position: absolute;
+  top: 40%;
+  right: -150px;
+  width: 650px;
+  height: 650px;
+  background: radial-gradient(circle, rgba(237, 7, 107, 0.18), transparent 65%);
+  filter: blur(90px);
+  z-index: 0;
+`;
+
 function App() {
   return (
     <ThemeProvider theme={darkTheme}>
       <Body>
         <GlowBackground />
+        <GlowBackgroundSecondary />
         <Header />
-        <HeroSection /> 
+        <HeroSection />
+        <Skills />
         <Projects />
         <Footer />
       </Body>
